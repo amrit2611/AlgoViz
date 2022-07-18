@@ -25,8 +25,11 @@ Features:
 4) Time and Space complexity of algorithm being visualized.
 
 Take a look at live version: https://amrit2611.github.io/AlgoViz/
-                        or   https://algoviz1.netlify.app/
+or   
+https://algoviz1.netlify.app/
+                        
 
 Credits: 
 Amrit Dhandharia - https://www.linkedin.com/in/amrit-dhandharia/
+
 Harshita Singh - https://www.linkedin.com/in/harshita-singh-317655205/
