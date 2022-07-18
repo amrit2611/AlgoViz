@@ -1,6 +1,6 @@
-# Sorting_Visualizer
+# AlgoViz
 
-A web application showcasing the inner workings of sorting algorithms.
+This is AlgoViz, a web application showcasing the inner workings of various algorithms.
 
 Implemented algorithms:
 1) Bubble sort
@@ -9,9 +9,11 @@ Implemented algorithms:
 4) Merge sort
 5) Quick sort
 6) Heap sort
+[Remaining algorithms will be added in future]
+
 
 Features:
-1) Colored representation of step being executed.
+1) Colored representation of every step being executed.
   1.1) Blue:default
   1.2) Yellow: Being compared
   1.3) Red: Identified as in incorrect position and to be moved
@@ -23,3 +25,8 @@ Features:
 4) Time and Space complexity of algorithm being visualized.
 
 Take a look at live version: https://amrit2611.github.io/AlgoViz/
+                        or   https://algoviz1.netlify.app/
+
+Credits: 
+Amrit Dhandharia - https://www.linkedin.com/in/amrit-dhandharia/
+Harshita Singh - https://www.linkedin.com/in/harshita-singh-317655205/

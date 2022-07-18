@@ -1,8 +1,4 @@
-/*
-    *****************
-    DONE BY:-   TUMMALA KETHAN
-    *****************
-*/
+
 * {
   margin: 0px;
   padding: 0px;
@@ -17,11 +13,11 @@ nav {
   color: white;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 30% 60%;
-      grid-template-columns: 30% 60%;
-  -webkit-column-gap: 10%;
-          column-gap: 10%;
-  padding: 0% 5%;
+  -ms-grid-columns: 60% 30%;
+      grid-template-columns: 60% 30%;
+      -webkit-column-gap: 5%;
+      column-gap: 5%;
+      padding-left: 1%;
 }
 
 nav .array-inputs {
@@ -29,8 +25,11 @@ nav .array-inputs {
   display: grid;
   -ms-grid-columns: 60% 40%;
       grid-template-columns: 60% 40%;
+      grid-template-rows: 1fr 1fr 2fr;
   place-content: center;
-  padding: 5% 0%;
+  padding-top: 5%;
+  font-size: auto;
+  justify-content: stretch;
 }
 
 nav .array-inputs #a_size {
@@ -42,19 +41,20 @@ nav .array-inputs #a_speed {
 }
 
 nav .array-inputs #a_generate {
-  background-color: transparent;
+  background-color: #4d4c4c;
   border: none;
+  margin: 5%;
   outline: none;
   color: white;
-  padding: 4% 0% 0% 0%;
-  padding-left: 20%;
 }
 
 nav .array-inputs #a_generate:hover {
   cursor: pointer;
+  background-color: blue;
+
 }
 
-nav .header_right {
+nav .header_left {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -64,56 +64,68 @@ nav .header_right {
           flex-direction: column;
 }
 
-nav .header_right .nav-heading {
-  display: inline-block;
-  font-size: xxx-large;
-  padding: 3% 0%;
+#logo{
+  width: "30px";
+  height: "30px";
+  display: inline; 
+  padding: 1%;
+  margin-top: 1%;
 }
 
-nav .header_right .algos {
+nav .header_left .nav-heading {
+  display: inline;
+  font-size: xxx-large;
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+nav .header_left .algos {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (16.66667%)[6];
-      grid-template-columns: repeat(6, 16.66667%);
+  grid-template-columns: repeat(6, 16.66667%);
   place-content: center;
-  padding: 2% 0%;
+  padding: 5px;
 }
 
-nav .header_right .algos button {
-  background-color: transparent;
+nav .header_left .algos button {
+  background-color: #4d4c4c;
   border: none;
   color: white;
   outline: none;
-  padding: 5% 0%;
-  font-size: x-large;
+  margin-left: 4px;
+  margin-right: 4px;
+  font-size: auto;
+  padding: 5%;
+  margin: 5%;
 }
 
-nav .header_right .algos button:hover {
+nav .header_left .algos button:hover {
   background-color: blue;
   cursor: pointer;
 }
 
-nav .header_right .algos .butt_locked {
+nav .header_left .algos .butt_locked {
   background-color: transparent;
   cursor: pointer;
 }
 
-nav .header_right .algos .butt_locked:hover {
+nav .header_left .algos .butt_locked:hover {
   background-color: transparent;
   cursor: pointer;
 }
 
-nav .header_right .algos .butt_selected {
+nav .header_left .algos .butt_selected {
   background-color: white;
   color: green;
 }
 
-nav .header_right .algos .butt_selected:hover {
+nav .header_left .algos .butt_selected:hover {
   background-color: white;
   cursor: pointer;
 }
 
-nav .header_right .algos .butt_unselected:hover {
+nav .header_left .algos .butt_unselected:hover {
   background-color: blue;
   cursor: pointer;
 }
@@ -129,7 +141,7 @@ section .Complexity_Containers {
   margin-top: 20%;
 }
 
-section .Complexity_Containers .Pair_Definitions {
+section .Complexity_Containers .Pair_Definitions {  
   margin-top: 20%;
 }
 
@@ -170,7 +182,7 @@ section #Info_Cont2 h3 {
   display: none;
 }
 
-/*
+
 @media (max-width: 480px)//Mobiles
 {
     
@@ -185,10 +197,5 @@ section #Info_Cont2 h3 {
 {
 
 }
-*/
-/*
-    *****************
-    DONE BY:-   TUMMALA KETHAN
-    *****************
-*/
-/*# sourceMappingURL=style.css.map */
+
+# sourceMappingURL=style.css.map
