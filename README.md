@@ -1,5 +1,7 @@
-# AlgoViz
+<h1>AlgoViz</h1>
+<p>
 A web application showcasing the inner workings of various algorithms.
+</p>
 
 <h2>Implemented algorithms</h2>
 <ul>
@@ -12,17 +14,29 @@ A web application showcasing the inner workings of various algorithms.
  </ul>
 
 <h2>Features</h2>
-1) Colored representation of every step being executed.
-  1.1) Blue:default
-  1.2) Yellow: Being compared
-  1.3) Red: Identified as in incorrect position and to be moved
-  1.4) Green: In correct position
-2) 3 Controls for visualizations
-  2.1) Speed of visualization (5 speed levels)
-  2.2) Data size ()
-  2.3) Generation of new data (Randomly generate new data).
-3) Time and Space complexity of algorithm being visualized.
-
+<ol>
+ <li>
+  Colored representation of every step being executed
+  <ul>
+   Blue:default
+   Yellow: Being compared
+   Red: Identified as in incorrect position and to be moved
+   Green: In correct position
+  </ul>
+ </li>
+ <li>
+  3 Controls for visualizations
+  <ul>
+   Speed of visualization (5 speed levels)
+   Data size ()
+   Generation of new data (Randomly generate new data).
+  </ul>
+ </li>
+  <li>
+  Time and Space complexity of algorithm being visualized.
+ </li>
+</ol>
+ 
 <h2>Deployment</h2>
 Take a look at live version: https://amrit2611.github.io/AlgoViz/
 or   
