@@ -25,7 +25,7 @@ A web application showcasing the inner workings of various algorithms.
   </ul>
  </li>
  <li>
-  3 Controls for visualizations
+  Controls for visualizations
   <ul>
    <li>Speed of visualization (5 speed levels)</li>
    <li>Data size ()</li>
@@ -38,12 +38,12 @@ A web application showcasing the inner workings of various algorithms.
 </ol>
  
 <h2>Deployment</h2>
-Take a look at live version: https://amrit2611.github.io/AlgoViz/
-or   
-https://algoviz1.netlify.app/
+[GithubPages](https://amrit2611.github.io/AlgoViz/)<br>
+or<br>
+[Netlify](https://algoviz1.netlify.app/)
                         
 
-Credits: 
-Amrit Dhandharia - https://www.linkedin.com/in/amrit-dhandharia/
-
-Harshita Singh - https://www.linkedin.com/in/harshita-singh-317655205/
+<h2>Credits</h2>
+[Amrit Dhandharia](https://www.linkedin.com/in/amrit2611/)<br>
+and<br>
+[Harshita Singh](https://www.linkedin.com/in/harshita-singh-317655205/)
