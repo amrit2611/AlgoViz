@@ -18,18 +18,18 @@ A web application showcasing the inner workings of various algorithms.
  <li>
   Colored representation of every step being executed
   <ul>
-   Blue:default
-   Yellow: Being compared
-   Red: Identified as in incorrect position and to be moved
-   Green: In correct position
+   <li>Blue:default</li>
+   <li>Yellow: Being compared</li>
+   <li>Red: Identified as in incorrect position and to be moved</li>
+   <li>Green: In correct position</li>
   </ul>
  </li>
  <li>
   3 Controls for visualizations
   <ul>
-   Speed of visualization (5 speed levels)
-   Data size ()
-   Generation of new data (Randomly generate new data).
+   <li>Speed of visualization (5 speed levels)</li>
+   <li>Data size ()</li>
+   <li>Generation of new data (Randomly generate new data).</li>
   </ul>
  </li>
   <li>
